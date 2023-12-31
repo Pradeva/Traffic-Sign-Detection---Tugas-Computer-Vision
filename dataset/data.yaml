@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['traffic-signs']
+
+roboflow:
+  workspace: tu-wien-pfowz
+  project: traffic-sign-detection-yolov8
+  version: 10
+  license: MIT
+  url: https://universe.roboflow.com/tu-wien-pfowz/traffic-sign-detection-yolov8/dataset/10
